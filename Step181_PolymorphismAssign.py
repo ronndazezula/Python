@@ -69,8 +69,6 @@ class SchCat(Animal):
     lives = 'in a box'
     food = 'none'
     voice = 'muffled'
-    state1 = 'alive'
-    state2 = 'dead'
 
     def faq(self):
         msg = "\n\n{}, however, is said to be {} and {} at the same time.\n".format(self.commonName,self.state1,self.state2)
