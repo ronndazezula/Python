@@ -2,7 +2,7 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        $secretKey = '6Ld42qkZAAAAAKx52n8MyJPPo3R9HMXUBuvCLbez';
+        $secretKey = '[purposefully removed]';
         $captcha = $_POST['g-recaptcha-response'];
 
         if(!$captcha){
